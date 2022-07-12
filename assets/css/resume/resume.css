@@ -58,6 +58,11 @@
   border-radius: 8px;
 }
 
+.social__icon[disabled] {
+  background: lightgray;
+  cursor: not-allowed;
+}
+
 .social__icon:last-child {
   margin-right: 0;
 }
@@ -128,6 +133,11 @@
   padding: 14px 30px;
   border-radius: 10px;
   background: var(--background-gradient);
+}
+
+.sidebar__btn:hover {
+  opacity: 0.8;
+  background: var(--background-gradient2);
 }
 
 .sidebar__btn__icon {
@@ -272,7 +282,7 @@ a:active {
 
 .list__content__item {
   display: inline-block;
-  height: 120px;
+  /* height: 120px; */
   margin-bottom: 20px;
   padding: 15px 15px 15px 20px;
   box-sizing: border-box;
