@@ -50,7 +50,7 @@ body {
   color: var(--color-primary);
   font-weight: 400;
   line-height: 160%;
-  background-image: url(../../img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   background-repeat: round;
 }
 
